@@ -61,9 +61,18 @@ my_list = [1,2,3,4,5]
 my_list = list(chain(my_list, [6,7,8]))
 print(my_list)
 
+#step 10+
+from itertools import chain
+a = [1,2,3]
+b = [4,5,6]
+c = [7,8,9]
+result = chain(a,b,c)
+print(list(result))
+
 #step 11
 #for
 my_list = [1,2,3,4,5]
 for i in [6,7,8]:
     my_list.append(i)
     print(my_list)
+    
